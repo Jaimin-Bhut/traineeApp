@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_black_18dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/outline_people_black_18dp"
+            android:title="Users" />
+        <item
+            android:id="@+id/nav_broadcast_recivers"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Broadcast Recevier" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/baseline_navigation_black_18dp"
+            android:title="Services" />
+
+        <item
+            android:id="@+id/nav_content_provider"
+            android:icon="@drawable/baseline_contacts_black_18dp"
+            android:title="Contacts" />
+
+
+        <item
+            android:id="@+id/nav_google_map"
+            android:icon="@drawable/baseline_location_on_black_18dp"
+            android:title="Google Map" />
+
+
+        <item
+            android:id="@+id/nav_web_services"
+            android:title="Web Services" />
+
+
+        <item
+            android:id="@+id/nav_firebase"
+            android:title="Firebase" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_vpn_key_black_18dp"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

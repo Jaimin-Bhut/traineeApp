@@ -59,6 +59,14 @@ freeline_project_description.json
 
 # fastlane
 fastlane/report.xml
+
+app/build/
+app/libs/
+build.gradle
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
